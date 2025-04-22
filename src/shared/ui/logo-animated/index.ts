@@ -1,0 +1,1 @@
+export { LogoAnimated } from './ui/LogoAnimated'
