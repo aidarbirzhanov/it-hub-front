@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import './Hero.css'
 
 export const Hero = () => {
   return (
@@ -16,7 +17,8 @@ export const Hero = () => {
             <Image src="/logo.svg" alt="Kulan IT HUB" width={80} height={80} />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Добро пожаловать в <span className="text-primary">Kulan IT HUB</span>
+            Добро пожаловать в{' '} <br/>
+            <span className="animated-gradient-text">Kulan IT HUB</span>
           </h1>
           <p className="text-lg text-muted-foreground">
             Платформа, где встречаются айтишники, клавагонщики, мемчики и друзья
